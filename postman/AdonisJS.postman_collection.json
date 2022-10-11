@@ -1,0 +1,99 @@
+{
+	"info": {
+		"_postman_id": "13003a96-626f-49e6-b152-f8c23cb86fd7",
+		"name": "AdonisJS",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Moments",
+			"item": [
+				{
+					"name": "Store Moment",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"title\": \"Olá mundo!\",\r\n    \"description\": \"Descrição de todo primeiro código em uma linguagem nova\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{URL}}/moments",
+							"host": [
+								"{{URL}}"
+							],
+							"path": [
+								"moments"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Get All Moments",
+					"request": {
+						"method": "GET",
+						"header": []
+					},
+					"response": []
+				},
+				{
+					"name": "Get a moment",
+					"request": {
+						"method": "GET",
+						"header": []
+					},
+					"response": []
+				},
+				{
+					"name": "Delete a moment",
+					"request": {
+						"method": "GET",
+						"header": []
+					},
+					"response": []
+				},
+				{
+					"name": "Update a moment",
+					"request": {
+						"method": "GET",
+						"header": []
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Comments",
+			"item": [
+				{
+					"name": "Create a comment",
+					"request": {
+						"method": "GET",
+						"header": []
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Index",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{URL}}",
+					"host": [
+						"{{URL}}"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
